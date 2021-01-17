@@ -1,0 +1,68 @@
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 100vw;
+    font-size: 40px;
+    .text {
+        z-index: 2;
+    }
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 100vw;
+    z-index: 1;
+    .shadow {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, rgba(34, 34, 34, 0), rgba(34, 34, 34, 1)),
+            linear-gradient(90deg, rgba(34, 34, 34, 0.2), rgba(34, 34, 34, 0), rgba(34, 34, 34, 0.2));
+    }
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    p {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .members {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.memberCard {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    div {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        font-size: 30px;
+        font-weight: 500;
+        color: transparent  ;
+    }
+    div:hover {
+        color: white;
+        background: rgba(34, 34, 34, 0.5);
+    }
+}
