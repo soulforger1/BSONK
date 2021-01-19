@@ -2,12 +2,26 @@
 @import "./home.scss";
 @import "./footer.scss";
 @import "./about.scss";
-@import "./contact.scss";
+@import "./review.scss";
+@import "./components.scss";
+@import "./businessInfo.scss";
 
 body {
-    margin: 0;
-    background-color: #222;
-    color: white;
-    font-family: "Lato", sans-serif;
-    overflow-x: hidden;
+  margin: 0;
+  background-color: #222;
+  color: white;
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+
+  .title {
+    z-index: 2;
+  }
 }

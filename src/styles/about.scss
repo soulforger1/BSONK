@@ -1,27 +1,27 @@
 .memberImage {
-    z-index: 1;
-    height: 300px;
-    width: 300px;
-    background-size: cover;
-    border-radius: 10px;
+  z-index: 1;
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  border-radius: 10px;
 }
 
 .member {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 90vh;
-    width: 100vw;
-    font-size: 40px;
-    .name {
-        z-index: 2;
-        font-size: 30px;
-    }
-    .text {
-        z-index: 2;
-        font-size: 20px;
-        width: 600px;
-        text-align: center;
-    }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+  width: 100vw;
+  font-size: 40px;
+  .name {
+    z-index: 2;
+    font-size: 30px;
+  }
+  .text {
+    z-index: 2;
+    font-size: 20px;
+    width: 600px;
+    text-align: center;
+  }
 }

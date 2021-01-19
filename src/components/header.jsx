@@ -11,10 +11,14 @@ export const Header = () => {
 
   return (
     <div className="header">
-      <div className="name" onClick={() => to("/")}>
+      <div
+        className="name"
+        style={{ cursor: "pointer" }}
+        onClick={() => to("/")}
+      >
         БС-БСОНК
       </div>
-      <div className="menu">
+      {/* <div className="menu">
         <div
           style={{
             cursor: "pointer",
@@ -45,7 +49,7 @@ export const Header = () => {
         >
           Contact
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

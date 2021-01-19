@@ -1,0 +1,44 @@
+.inputBox {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  .inputLabel {
+    font-size: 25px;
+    font-weight: 300;
+  }
+
+  .inputMessage {
+    width: 600px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #4b4b4b;
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 10px;
+    color: white;
+    outline: none;
+  }
+
+  .normalInput {
+    height: 40px;
+  }
+
+  .textArea {
+    font-family: "Lato", sans-serif;
+    padding-top: 8px;
+    margin-top: 10px;
+    height: 200px;
+  }
+}
+
+.button {
+  z-index: 2;
+  height: 50px;
+  width: 200px;
+  margin-top: 20px;
+  border: solid 1px #00d6b4;
+  background-color: #222;
+  outline: none;
+  color: #00d6b4;
+
+}
